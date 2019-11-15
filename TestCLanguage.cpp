@@ -10,7 +10,7 @@ void  ReadFile_ShowFile(char *strFileName);
 void  Others()
 {
 	double dSum = PI;
-	dSum = Add(1,5);
+	//dSum = Add(1,5);
 
 	for(int i = 0; i < 99999; i++)
 	{
