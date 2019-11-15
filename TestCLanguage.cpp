@@ -11,6 +11,8 @@ void  Others()
 {
 	double dSum = PI;
 	dSum = Add(1,5);
+	
+	int a = 99; //hmj test
 
 	for(int i = 0; i < 99999; i++)
 	{
@@ -150,7 +152,7 @@ void  ReadFile_ShowFile(char *strFileName)
  	 PersonInfo* pstuctPersons = new PersonInfo[nNum];
 
 
-	 int nLow  =0;
+	
 
 	 fseek(pF,0,0);
 	  
@@ -189,7 +191,7 @@ void  ReadFile_ShowFile(char *strFileName)
 	 {
 		 
 		 nIndex++;
-		 nRead = fscanf(pF,"%s %s %d",stuctPersons[nIndex].m_strName,stuctPersons[nIndex].m_strSex,&(stuctPersons[nIndex].m_nAge));
+	//	 nRead = fscanf(pF,"%s %s %d",stuctPersons[nIndex].m_strName,stuctPersons[nIndex].m_strSex,&(stuctPersons[nIndex].m_nAge));
 
 	 }
 
